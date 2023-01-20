@@ -43,5 +43,3 @@ d3.csv("WorldCup.csv").then(data => {
         .attr("width", scaleX.bandwidth())
         .attr("y", d => scaleY(d.values.length))
 })
-
-d3.max(nest.map(d => d.values.lenght))
